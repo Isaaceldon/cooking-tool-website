@@ -1,0 +1,509 @@
+@media(min-width:768px) and (max-width:1024px){
+
+    body{
+        position: relative;
+    }
+    .conteneur{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sous-left{
+      width:100%;
+      height:100%;
+      position: absolute;
+       
+    }
+
+    .menu-shopping{
+        width: 300px;
+       background-color: rgb(250, 245, 245);
+       height: 100%;
+       z-index: 1;
+        position:fixed;
+        box-shadow: 5px 0px 3px rgba(0, 0, 0, 0.102);
+        top: 0%;
+        right: 0px;
+        display:block;
+    }
+
+
+    .compare-wish-list{
+        position: absolute;
+        width: 100%;
+        bottom:-5%;
+        border: 1px solid green;
+       margin: 25px;
+    }
+
+
+    .compare-product-span h2, .wish-list-span h2{
+        padding: 25px;
+        position:relative;
+        width: 100%;
+        left:0px;
+      padding: 0px;
+    }
+    .compare p, .wish-list p{
+        font-size: 20px;
+        margin-left:0px;
+        margin-top: 20px;
+       
+    }
+
+.compare{
+    left: 0px;
+}
+
+    .compare-chevron{
+        display: block;
+    }
+
+    .compare-p{
+        display: none;
+    }
+
+    .wish-chevron{
+        display: block;
+    }
+
+    .wish-p{
+        display: none;
+    }
+    .left-first-h2{
+        display: none;
+    }
+
+    .delete-option{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .times-icone{
+        font-size: 25px;
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Styles responsive lies au sous-right div*/
+    .sous-right{
+        width: 100%;
+        position: relative;
+    }
+
+    .div-nav2{
+        display: block;
+    }
+
+    .select-span{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    #sort-down{
+        position: absolute;
+        top: 125px;
+        left:50%;
+    }
+
+    
+
+    .show-select{
+        position: absolute;
+        top: 100px;
+        right: 2%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .number-article{
+        width: 150px;
+    }
+
+    #th-large{
+        right: 2%;
+        position: absolute;
+
+    }
+
+    #grip-vertical{
+        right:8%;
+        position: absolute;
+       
+    }
+
+    .item-number{
+        position: absolute;
+        right:35%;
+        top: 25px;
+    }
+
+    .lien-filter{
+        display: block;
+    }
+
+    /* styles lies aux articles*/
+.grandconteneur{
+
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top:200px;
+}
+
+.conteneur-article{
+    display: inline-block;
+    width:250px;
+    height:250px;
+    position: relative;
+    margin:20px;
+    margin-bottom: 425px;
+}
+.bloque{
+    width:250px;
+    height:200px;
+    overflow:visible;
+    position:relative;
+
+}
+
+.bloque img {
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.bloque .caption{
+    top:252px;
+    width: 100%;
+    height:325px;
+    position:absolute;
+    background-color: rgba(252, 242, 242, 0.753);
+    text-align: center;
+    transition: 0.7s;
+    overflow: hidden;
+}
+
+.caption .content{
+    position:relative;
+    color: white;
+    top: 5%;
+
+}
+
+.content button{
+    background-color: red;
+    padding: 15px;
+    border: none;
+   
+}
+.content button a{
+    color: white;
+    font-size: 20px;
+}
+
+.content button:hover{
+    background-color: black;
+}
+
+.content-liens{
+    color:black;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top:25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-liens a{
+    display: block;
+    border-bottom: 2px solid black;
+    transition: border 0.2s;
+    margin:15px 0px ;
+}
+
+.content-liens a:hover{
+    border-bottom-color:transparent;
+    transition: border 0.2s ease-in;
+    opacity: 0.5;
+}
+
+
+.bloque:hover .caption{
+    top: 252px;
+   
+}
+
+}
+
+@media(max-width:768px){
+
+    .conteneur{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sous-left{
+      width:100%;
+      height:100%;
+      position: absolute;
+       
+    }
+
+    .menu-shopping{
+        width: 300px;
+       background-color: rgb(250, 245, 245);
+       height: 100%;
+       z-index: 1;
+        position:fixed;
+        box-shadow: 5px 0px 3px rgba(0, 0, 0, 0.102);
+        top: 0%;
+        right: 0px;
+        display:block;
+    }
+
+
+    .compare-wish-list{
+        position: absolute;
+        width: 100%;
+        bottom:-5%;
+        border: 1px solid green;
+       margin: 25px;
+    }
+
+
+    .compare-product-span h2, .wish-list-span h2{
+        padding: 25px;
+        position:relative;
+        width: 100%;
+        left:0px;
+      padding: 0px;
+    }
+    .compare p, .wish-list p{
+        font-size: 20px;
+        margin-left:0px;
+        margin-top: 20px;
+       
+    }
+
+.compare{
+    left: 0px;
+}
+
+    .compare-chevron{
+        display: block;
+    }
+
+    .compare-p{
+        display: none;
+    }
+
+    .wish-chevron{
+        display: block;
+    }
+
+    .wish-p{
+        display: none;
+    }
+    .left-first-h2{
+        display: none;
+    }
+
+    .delete-option{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .times-icone{
+        font-size: 25px;
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Styles responsive lies au sous-right div*/
+    .sous-right{
+        width: 100%;
+        position: relative;
+    }
+
+    .div-nav2{
+        display: block;
+    }
+
+    .select-span{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    #sort-down{
+        position: absolute;
+        top: 100px;
+        right: 2%;
+    }
+
+    
+
+    .show-select{
+        position: absolute;
+        top: 150px;
+        left: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .number-article{
+        width: 150px;
+    }
+
+    #th-large{
+        right: 2%;
+        position: absolute;
+
+    }
+
+    #grip-vertical{
+        right:8%;
+        position: absolute;
+       
+    }
+
+    .item-number{
+        position: absolute;
+        right:20%;
+        top: 25px;
+    }
+
+    .lien-filter{
+        display: block;
+     
+    }
+
+    .right-filter{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        padding: 10px;
+        width: 200px;
+        top:10px;
+        left:0px;
+        position: absolute;
+    }
+
+    /* styles lies aux articles*/
+.grandconteneur{
+
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top:200px;
+}
+
+.conteneur-article{
+    display: inline-block;
+    width:250px;
+    height:250px;
+    position: relative;
+    margin:20px;
+    margin-bottom: 425px;
+}
+.bloque{
+    width:250px;
+    height:200px;
+    overflow:visible;
+    position:relative;
+
+}
+
+.bloque img {
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.bloque .caption{
+    top:252px;
+    width: 100%;
+    height:325px;
+    position:absolute;
+    background-color: rgba(252, 242, 242, 0.753);
+    text-align: center;
+    transition: 0.7s;
+    overflow: hidden;
+}
+
+.caption .content{
+    position:relative;
+    color: white;
+    top: 5%;
+
+}
+
+.content button{
+    background-color: red;
+    padding: 15px;
+    border: none;
+   
+}
+.content button a{
+    color: white;
+    font-size: 20px;
+}
+
+.content button:hover{
+    background-color: black;
+}
+
+.content-liens{
+    color:black;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top:25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-liens a{
+    display: block;
+    border-bottom: 2px solid black;
+    transition: border 0.2s;
+    margin:15px 0px ;
+}
+
+.content-liens a:hover{
+    border-bottom-color:transparent;
+    transition: border 0.2s ease-in;
+    opacity: 0.5;
+}
+
+
+.bloque:hover .caption{
+    top: 252px;
+   
+}
+
+
+
+}
+

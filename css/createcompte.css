@@ -1,0 +1,119 @@
+.mon-conteneur{
+    margin: 0 auto;
+    width: 700px;
+    height: auto;
+    position: relative;
+   
+}
+
+.inputform{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    align-items: center;
+    margin: 25px 0px;
+}
+.inputform div:nth-child(2){
+    display: inline-block;
+    margin: 20px 0px;
+    width: 70%;
+
+}
+
+.inputform div:first-child{
+    display: inline-block;
+    margin: 20px 0px;
+    width:30%;
+    text-align: right;
+    margin: 0px 25px;
+}
+
+.inputform sup i{
+    font-size: 10px;
+    color: red;
+}
+.startinfo{
+    text-align: center;
+}
+
+.mon-conteneur form input{
+    height: 40px;
+    outline: none;
+    text-align: start;
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    border-radius: 3px;
+}
+
+.inputform label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.longpassword{
+    margin-left: 15em;
+}
+
+.sign{
+    font-size: 20px;
+}
+
+.inputformsign{
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoh1{
+    text-align: center;
+}
+
+.inputform input[type="submit"]{
+    border: 2px solid black;
+    background-color: #c1e206;
+    height: 48px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 0px;   
+}
+.inputform input[type="submit"]:hover{
+    background-color: black;
+}
+
+.inputform button{
+    height: 48px;
+    font-size: 20px;
+    background-color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.inputform button:hover{
+    background-color: #c1e206;
+}
+
+.inputform button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+   outline: none;
+  
+}
+
+.inputformsign  input[type="checkbox"] .signing{
+    display: none;
+}
+
+.inputformsign  input[type="checkbox"] .signing + label::before{
+    content: 'a';
+    border: 1px solid #82b609;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    padding: 2px;
+    
+}

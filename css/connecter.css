@@ -1,0 +1,124 @@
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+}
+.connexion{
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.inscription{
+    width: 40%;
+    position: relative;
+    box-sizing: border-box;
+   
+}
+
+.creation{
+    width: 40%;
+    position: relative;
+    box-sizing: border-box;
+   margin-left: 50px;
+   
+}
+
+.inputtexte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputtexte input{
+    text-align:left;
+    outline: none;
+  height: 40px;
+  border:1px solid rgba(0, 0, 0, 0.164);
+ 
+}
+
+.inputtexte p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+form label{
+    font-weight: bold;
+    float: left;
+}
+
+.inscription form{
+    text-align: center;
+}
+.asterisk{
+    font-size: 10px;
+    color: red;
+}
+
+.required{
+    margin-left: 100px;
+    color: red;
+    text-align: left;
+}
+.psubmit{
+   margin-left:100px;
+
+}
+
+.psubmit input{
+    margin-left:25px;
+    text-align: center;
+    background-color: white;
+}
+
+.psubmit input:hover{
+    background-color: black;
+    color:white;
+}
+.psubmit:hover{
+    color: red;
+}
+
+form input[type="submit"]{
+    border: 2px solid black;
+    padding: 20px;
+    width: 150px;
+}
+
+.creation button{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 25px 0px;
+    background-color: white;
+}
+
+.creation button a{
+    color:black;
+}
+
+.typeh1{
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.144);
+}
+
+.creation button:hover{
+    background-color: black;
+}
+
+.creation button:hover a{
+    color: white;
+}
+
+.startinfo{
+    font-size:3em;
+    margin-bottom: 50px;
+}
